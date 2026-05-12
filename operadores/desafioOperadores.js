@@ -12,12 +12,17 @@ Atalho: SHIFT = ALT + A
 let a = 10;
 let b = 20;
 
-// = atribuição
-// == compara somente o valor
-// === compara valor e tipo
+// Valores TRUE
+console.log("Valores True:")
+console.log(a<b);
+console.log(a != b);
+console.log(a <= b);
+console.log(b >= a);
+console.log(b != a );
 
-console.log(a =a);
-console.log(a ==b);
+//Valores False
+console.log(a> b);
 console.log(a == b);
-console.log(a === b);
-console.log(b === a);
+console.log(a >= b);
+console.log(b <= a);
+console.log(b == a);
